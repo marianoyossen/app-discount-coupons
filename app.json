@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "app-discount-coupons",
+    "slug": "app-discount-coupons",
+    "version": "1.0.0",
+    "platforms": ["ios", "android"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.coderhouse.discountcoupons",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.coderhouse.discountcoupons",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+    },
+    "permissions": [
+      "CAMERA",
+      "ACCESS_FINE_LOCATION",
+      "WRITE_EXTERNAL_STORAGE"
+    ],
+    "config": {
+      "googleMaps": {
+        "apiKey": "AIzaSyCg2BFhAlMVEWWtQw3GWOYWCD16_KXMePo"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
